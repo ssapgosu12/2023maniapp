@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PPCAL</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+<h1 class="maintitle">2023 osu mania pp calculator</h1><h4 class="smalldescription">by <a href="https://osu.ppy.sh/users/16564480">ssapgosu</a></h4>
+<h4 class="smalldescription"> can diviate a bit cause it uses total note method to calculate pp instead of getting all 300, 200, 100, 50, miss counts.</h4>
+<h4 class="smalldescription"> more accurate on maps with larger total notes. 0.17pp error on Dressurf's Duplicity Shade</h4>
+<div class="lnclass" id="linkbox">
+    <div class="Hbox"><a>Star rating</a><input type="number" id="star" max="100" min="0" class="link"></div>
+    <div class="Hbox"><a>Accuracy</a><input type="number" id="acc" max="100" min="0" class="link"></div>
+    <div class="Hbox"><a>Total notes</a><input type="number" id="notes" max="1000000" min="0" class="link"></div>
+    <div class="Hbox"><a>320 counts</a><input type="number" id="320" max="1000000" min="0" class="link"></div>
+
+    <div class="Hbox"><a>Your pp is</a><a id="pp"></a></div>
+</div>
+</body>
+<script type="text/javascript" src="ppcal.js"></script>
+</html>
