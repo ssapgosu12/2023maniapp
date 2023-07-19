@@ -89,7 +89,7 @@ function calculatePP(star, acc, notes, three20) {
 //guess three20/notes
 function acc_to_ratio(acc){
     acc *=100;
-    var ratio = 0.21951074725992828 + -1.8917388061679286/(acc-103.52761478506012)
+    var ratio = 0.21951074725992828 -1.8917388061679286/(acc-103.52761478506012)
     console.log(ratio);
     return ratio;
 }
