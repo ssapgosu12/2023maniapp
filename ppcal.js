@@ -71,7 +71,7 @@ function updatePP() {
     }
     else{
         document.getElementById("gnotes").innerHTML = "";
-        document.getElementById("g320").innerHTML = "";
+        document.getElementById("g320").innerHTML = "";}
     var pp = calculatePP(star, acc, notes, three20);
     document.getElementById("pp").innerHTML = pp;
     console.log("star: " + star + " acc: " + acc + " notes: " + notes + " 320: " + three20 + " pp: " + pp);
